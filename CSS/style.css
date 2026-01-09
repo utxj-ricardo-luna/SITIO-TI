@@ -12,4 +12,44 @@ body{
     border-radius: 10px;
     padding: 20px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+.logo {
+    background-color: aqua;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    width: 100%;
+    height: auto;
+}
+.menu {
+    background-color: bisque;
+    width: 65%;
+    
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: rgb(27, 117, 188);
+}
+.menu ul li{
+    margin: 0;
+    padding: 15px 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li a:hover{
+    background-color: rgb(139, 168, 32);
+    padding: 15px 20px;
+}
+.redes{
+    background-color: coral;
+    width: 20%;
 }
